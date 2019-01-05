@@ -17,8 +17,24 @@
 |**[IIPImage](http://iipimage.sourceforge.net/documentation/server/) / [iiipsrv](https://github.com/ruven/iipsrv)**|[v2.0](http://iipimage.sourceforge.net/documentation/protocol/#iiif)|||||TIFF, JPEG 2000|C++ (Fast CGI module)|other protocols: IIP, Zoomify, Deepzoom;   supports watermarking|[GNU GPL](http://www.gnu.org/licenses/gpl.html)|08.2017|
 |**[IiifS3](https://github.com/cmoa/iiif_s3)**|||||||Ruby|Concept: static file serving from Amazon S3|[MIT](https://github.com/cmoa/iiif_s3/blob/master/LICENSE.txt)|08.2017|
 |**[Loris](https://github.com/loris-imageserver/loris)**                                                                                                                 |[v2.0](https://github.com/loris-imageserver/loris/releases/tag/2.0.1)|||||TIFF, JPEG, JPEG 2000|Python|[no watermarking supported](https://github.com/loris-imageserver/loris/issues/46), but possibly [authentication](https://github.com/loris-imageserver/loris/issues/343)|New BSD|08.2017|
+|**[loris redux](https://github.com/jpstroop/loris-redux)**|[v2.1](https://github.com/jpstroop/loris-redux/blob/master/README.md) (goal)|||||TIFF, JPEG, JPEG 2000|Python, CherryPy||[New BSD](https://github.com/jpstroop/loris-redux/blob/master/LICENSE)|01.2019|
 |**[Luna](http://www.lunaimaging.com/iiif) (DAM)**|~[v2.1](https://doc.lunaimaging.com/display/V73D/IIIF+in+LUNA)|~[v2.1](https://doc.lunaimaging.com/display/V73D/LUNA+Viewer+API+and+IIIF)||||JPEG, JPEG 2000, MrSid|||proprietary|08.2017|
+|**[php-iiif-image-server](https://github.com/dmj/php-iiif-image-server)**|[v2.1](https://github.com/pdaengeli/iiif-servers/issues/1#issuecomment-451373261)||||||PHP||[GNU General Public License](https://github.com/dmj/php-iiif-image-server/blob/master/src/FeatureSet.php)|01.2019|
 |**[RAIS](https://github.com/uoregon-libraries/rais-image-server#license)**|[~v2](https://github.com/uoregon-libraries/rais-image-server#iiif-support-isnt-perfect)|||||JPEG 2000, TIFF, JPG, PNG, GIF|Go||[CC0](https://github.com/uoregon-libraries/rais-image-server#license)|08.2017|
 |**[Riiif](https://github.com/curationexperts/riiif)**|[v1.1](https://github.com/curationexperts/riiif/blob/master/README.md)||||||Ruby||[Apache License 2.0](https://github.com/curationexperts/riiif/blob/master/LICENSE)|08.2017|
 |**[Shimmy](https://github.com/mejackreed/shimmy)**||~v2|||||Ruby||public domain waiver (Unlicense)|08.2017|
 |**[SIPI](https://github.com/dhlab-basel/Sipi)**|[~v2](https://dh2017.adho.org/abstracts/259/259.pdf)|[~v2](https://dh2017.adho.org/abstracts/259/259.pdf)|[~v2](https://dh2017.adho.org/abstracts/259/259.pdf)|||TIFF, JPEG 2000, PNG, JPEG|C++, Lua|can convert JPEG 2000 images on the fly;   offers a flexible framework for specifying authentication and authorization logic in Lua scripts;   * supports restricted access to images, either by reducing image dimensions or by adding [watermarks](https://dhlab-basel.github.io/Sipi/documentation/lua.html#sipiimage-watermark-wm-file-path);   JSON web token-based authentication (JWT);   modular extensibility, e.g. integrating support for RTI imaging|[GNU Affero General Public License v3.0](https://github.com/dhlab-basel/Sipi/blob/develop/LICENSE)|08.2017|
+
+#### Some other servers worth checking (among them some recent development that might be integrated into the list later)
+
+* [aio-iiif](https://github.com/greut/aio-iiif) (Python)
+* [eyebright](https://github.com/NCSU-Libraries/eyebright) (Rails, caching)
+* [iiif.archivelab.org](https://github.com/ArchiveLabs/iiif.archivelab.org) (Python, Flask)
+* [iiif-image](https://github.com/jronallo/iiif-image) (Node JS)
+* [iiif-node](https://github.com/Wedjaa/iiif-node) (Node JS)
+* [Imadaem IIIF Image Server](https://github.com/doktorbro/imadaem-php) (PHP; stale project)
+* [Kaleidoscope](https://github.com/bnbalsamo/kaleidoscope) (Python)
+* [Omeka-S-module-IiifServer](https://github.com/Daniel-KM/Omeka-S-module-IiifServer) (PHP; Omeka S integration)
+* [Picaxe](https://github.com/eemeyer/picaxe) (Go)
+* [sniiifs](https://github.com/TimHollies/sniiifs) (Node JS)
+* [TremendousIIIF](https://github.com/britishlibrary/TremendousIIIF) (C#)
