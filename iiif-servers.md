@@ -31,6 +31,7 @@
 * [eyebright](https://github.com/NCSU-Libraries/eyebright) (Rails, caching)
 * [iiif.archivelab.org](https://github.com/ArchiveLabs/iiif.archivelab.org) (Python, Flask)
 * [iiif-image](https://github.com/jronallo/iiif-image) (Node JS)
+* [iiif-image-auth](https://github.com/robcast/iiif-image-auth) (Digilib/IIPImage + IIIF Auth API)
 * [iiif-node](https://github.com/Wedjaa/iiif-node) (Node JS)
 * [Imadaem IIIF Image Server](https://github.com/doktorbro/imadaem-php) (PHP; stale project)
 * [Kaleidoscope](https://github.com/bnbalsamo/kaleidoscope) (Python)
