@@ -33,6 +33,7 @@
 * [iiif-image](https://github.com/jronallo/iiif-image) (Node JS)
 * [iiif-image-auth](https://github.com/robcast/iiif-image-auth) (Digilib/IIPImage + IIIF Auth API)
 * [iiif-node](https://github.com/Wedjaa/iiif-node) (Node JS)
+* [iiif-processor / node-iiif](https://github.com/nulib/node-iiif)
 * [Imadaem IIIF Image Server](https://github.com/doktorbro/imadaem-php) (PHP; stale project)
 * [Kaleidoscope](https://github.com/bnbalsamo/kaleidoscope) (Python)
 * [Omeka-S-module-IiifServer](https://github.com/Daniel-KM/Omeka-S-module-IiifServer) (PHP; Omeka S integration)
